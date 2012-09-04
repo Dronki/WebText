@@ -1,0 +1,18 @@
+/* 
+    Document   : style
+    Created on : 2012-sep-04, 10:07:31
+    Author     : Rickard
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    background-image: url(../img/leather.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: #333333;
+}
