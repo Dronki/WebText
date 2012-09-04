@@ -16,3 +16,101 @@ body {
     background-attachment: fixed;
     background-color: #333333;
 }
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+
+#nav {
+    background-color: #cccccc;
+    color: #000000;
+    float: left;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    width: 900px;
+    border: 1px solid #333333;
+    margin-left:5px;
+    margin-bottom: 10px;
+}
+
+#content {
+    background-color: #cccccc;
+    color: #000000;
+    float: left;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    width: 900px;
+    border: 1px solid #333333;
+    margin-left:5px;
+    
+}
+
+#user {
+    -webkit-box-shadow: 0 0 5px #333333;
+    -moz-box-shadow: 0 0 5px #333333;
+    box-shadow: 0 0 5px #333333;
+    /*---------------------------------*/
+    padding: 10px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 40px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    -moz-border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*---------------------------------*/
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    z-index: 5;
+}
+
+.ver {
+    text-align: center;
+    font: bold 15px Sans-Serif;
+    -webkit-transform: rotate(45deg);
+}
+
+#user_inner {
+    -webkit-box-shadow: 0 0 5px #333333;
+    -moz-box-shadow: 0 0 5px #333333;
+    box-shadow: 0 0 5px #333333;
+    /*---------------------------------*/
+    padding: 10px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 80px;
+    left: -250px;
+    width: 230px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*---------------------------------*/
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    z-index: 5;
+}
+#user:hover {
+    left: 250px;
+}
+#user:hover #user_inner {
+    left: 0;
+}
+#user:hover #user_inner img {
+    float:left;
+    border: 1px solid #cccccc;
+}
